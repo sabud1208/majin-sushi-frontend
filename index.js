@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("HELLO")
 
-
+//created a function that gets the the div element by ID
+// Then we interpolate each sushi attribute to show on the page through innerHTML
 function showSushi(sushi) {
   let sushiMenu = document.querySelector('#sushi-menu')
    sushiMenu.innerHTML +=`<div class="sushi">
